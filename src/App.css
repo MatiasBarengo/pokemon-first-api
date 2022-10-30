@@ -1,0 +1,66 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/bf/b3/fe/bfb3fef0122536ba7a439806efcc862a.png);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 5px black;
+  background-image: url(https://i.pinimg.com/originals/99/91/67/9991675d2db5612531199c2fcfdc47ad.png);
+  background-size: 100% 100%;
+  color: black;
+  height: 90vh
+}
+
+.name{
+  font-size:40px;
+  margin: 0;
+  margin-bottom: 50px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+img{
+  border: 1px solid grey;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 5px grey;
+  background-image: url(https://i.pinimg.com/736x/d6/7c/3c/d67c3cbce4d7e9355e8522e10434d76c.jpg);
+  background-size: 100% 100%;
+  height: 300px;
+}
+
+.info{
+  background-color: #d9d9d9;
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p{
+  font-size: 25px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;  
+  gap: 10px;
+  margin: 10px 0;
+}
